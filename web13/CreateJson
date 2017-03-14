@@ -1,0 +1,51 @@
+{
+	"type": "SUBSCRIPTION_ORDER",
+	"marketplace": {
+		"partner": "APPDIRECT",
+		"baseUrl": "https://marketplace.appdirect.com"
+	},
+	"applicationUuid": null,
+	"flag": "DEVELOPMENT",
+	"creator": {
+		"uuid": "45a7f580-a8ea-45b1-aaae-3bcd2e860a4c",
+		"openId": "https://marketplace.appdirect.com/openid/id/45a7f580-a8ea-45b1-aaae-3bcd2e860a4c",
+		"email": "hardik.ranjan+developer@appdirect.com",
+		"firstName": "Hardik",
+		"lastName": "Ranjan",
+		"language": "en",
+		"locale": "en-US",
+		"address": null,
+		"attributes": null	
+	},
+	"payload": {
+		"user": null,
+		"company": {
+			"uuid": "b6a76d12-5d9c-4e2d-b21e-01dad0e4d828",
+			"externalId": null,
+			"name": "Appdirect",
+			"email": "david.hadley@appdirect.com",
+			"phoneNumber": "3104064298",
+			"website": "appdirect.com",
+			"country": "US"
+		},
+		"account": null,
+		"addonInstance": null,
+		"addonBinding": null,
+		"order": {
+			"editionCode": "RECURRING",
+			"addonOfferingCode": null,
+			"pricingDuration": "MONTHLY",
+			"items": [
+				{
+					"unit": "USER",
+					"quantity": 1
+				}
+			],
+			"customAttributes": []
+		},
+		"notice": null,
+		"configuration": {}
+	},
+	"returnUrl": null,
+	"links": []
+}
